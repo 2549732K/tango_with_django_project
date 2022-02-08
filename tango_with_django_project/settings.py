@@ -131,3 +131,8 @@ MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
 
+# Default redirect URL for a user not logged in
+
+LOGIN_URL = 'rango:login'
+
+
